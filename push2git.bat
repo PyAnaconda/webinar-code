@@ -1,6 +1,6 @@
 @echooff
 for /f %%a in ('powershell -Command "Get-Date -format yyyy_MM_dd__HH_mm_ss"') do set datetime=%%a
 git add .
-git commit -am "ÐšÐ¾Ð¼Ð¼Ð¸Ñ‚ Ð¾Ñ‚ %datetime%"
+git commit -am "Š®¬¬¨â ®â %datetime%"
 git branch -M main
 git push
